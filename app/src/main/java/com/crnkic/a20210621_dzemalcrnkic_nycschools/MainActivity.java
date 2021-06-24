@@ -6,6 +6,9 @@ import com.crnkic.a20210621_dzemalcrnkic_nycschools.databinding.ActivityMainBind
 
 import java.io.Serializable;
 
+import dagger.hilt.android.AndroidEntryPoint;
+
+@AndroidEntryPoint
 public class MainActivity extends AppCompatActivity {
 
     ActivityMainBinding viewBinding;

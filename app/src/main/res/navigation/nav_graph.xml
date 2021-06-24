@@ -20,7 +20,7 @@
         android:label="details_fragment"
         tools:layout="@layout/details_fragment" >
         <argument
-            android:name="position"
-            app:argType="integer" />
+            android:name="School"
+            app:argType="com.crnkic.a20210621_dzemalcrnkic_nycschools.model.Schools" />
     </fragment>
 </navigation>

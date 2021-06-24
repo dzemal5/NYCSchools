@@ -53,7 +53,7 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.CardViewHolder
             viewBiding.cardView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    getPosition.onClick(getAdapterPosition());
+                    getPosition.onClick(schools.get(getAdapterPosition()));
                 }
             });
         }
